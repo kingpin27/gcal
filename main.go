@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/kingpin27/gcal/cmd"
 
 func main() {
-	fmt.Println("Hello gcal!!")
+	cmd.Execute()
 }
